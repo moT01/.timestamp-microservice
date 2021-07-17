@@ -7,10 +7,11 @@
   "config": {
     "setup": {
       "commands": [
-        "cd .freeCodeCamp && npm install"
+        "cd .freeCodeCamp && npm install",
+        "./.freeCodeCamp/reset.sh"
       ],
       "commits": [
-        "4e1735992c809a6aa939a1452a9e5403cbf7bffe"
+        "5e8b84c7ddea5ac5ebbd0b050536454aa9d9157a"
       ]
     },
     "testRunner": {
@@ -23,6 +24,11 @@
     "repo": {
       "uri": "https://github.com/moT01/.timestamp-microservice",
       "branch": "v0.0.1"
+    },
+    "reset": {
+      "commands": [
+        "./.freeCodeCamp/reset.sh"
+      ]
     },
     "dependencies": [
       {
@@ -53,7 +59,7 @@
           ],
           "setup": {
             "commits": [
-              "570b4c12e7ccabd8cf2956c443e5c235f3ae272d"
+              "aae0b9e695bd5e1d9c611ef2c492789467116edd"
             ]
           }
         }

@@ -4,7 +4,7 @@
 
 ## 1. Instructions
 
-Run your project by entering `npm start` in the terminal from the `timestamp-microserice` folder. After it's started, click the `preview` button at the top and open port `8080` to view the front end of the project. Finish building the server to fulfill the user stories below.
+Install your project dependencies by entering `npm ci` from the `timestamp-microservice` folder in the terminal. After that, start your server by running `npm start`. Follow the instructions in the terminal to view your project web page. Don't forget that you need to restart your server in order for your code changes to take place. Pass all the user stories below to complete the project.
 
 ### 1.1
 

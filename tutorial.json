@@ -1,0 +1,63 @@
+{
+  "version": "0.0.1",
+  "summary": {
+    "title": "Timestamp Microservice",
+    "description": "> Welcome to the Timestamp Microservice certification project!"
+  },
+  "config": {
+    "setup": {
+      "commands": [
+        "cd .freeCodeCamp && npm install"
+      ],
+      "commits": [
+        "4e1735992c809a6aa939a1452a9e5403cbf7bffe"
+      ]
+    },
+    "testRunner": {
+      "command": "npm run programmatic-test",
+      "args": {
+        "tap": "--reporter=mocha-tap-reporter"
+      },
+      "directory": ".freeCodeCamp"
+    },
+    "repo": {
+      "uri": "https://github.com/moT01/.timestamp-microservice",
+      "branch": "v0.0.1"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Instructions",
+      "summary": "Run your project by entering `npm start` in the terminal from the `timestamp-...",
+      "content": "Run your project by entering `npm start` in the terminal from the `timestamp-microserice` folder. After it's started, click the `preview` button at the top and open port `8080` to view the front end of the project. Finish building the server to fulfill the user stories below.",
+      "steps": [
+        {
+          "id": "1.1",
+          "content": "Complete the tasks below",
+          "subtasks": [
+            "You should provide your own project, not the example URL.",
+            "A request to /api/:date? with a valid date should return a JSON object with a unix key that is a Unix timestamp of the input date in milliseconds",
+            "A request to /api/:date? with a valid date should return a JSON object with a utc key that is a string of the input date in the format: Thu, 01 Jan 1970 00:00:00 GMT",
+            "A request to /api/1451001600000 should return { unix: 1451001600000, utc: \"Fri, 25 Dec 2015 00:00:00 GMT\" }",
+            "Your project can handle dates that can be successfully parsed by new Date(date_string)",
+            "If the input date string is invalid, the api returns an object having the structure { error : \"Invalid Date\" }",
+            "An empty date parameter should return the current time in a JSON object with a unix key",
+            "An empty date parameter should return the current time in a JSON object with a utc key"
+          ],
+          "setup": {
+            "commits": [
+              "570b4c12e7ccabd8cf2956c443e5c235f3ae272d"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

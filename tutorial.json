@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": {
     "title": "Timestamp Microservice",
     "description": "> Welcome to the Timestamp Microservice certification project!"
@@ -11,7 +11,7 @@
         "./.freeCodeCamp/reset.sh"
       ],
       "commits": [
-        "14736ee75c4b7ca8ab1d029be0bdd35df4a9bd67"
+        "31b4ff8a53c7dae3b5b374e584dfee06e10ff67f"
       ]
     },
     "testRunner": {
@@ -23,7 +23,7 @@
     },
     "repo": {
       "uri": "https://github.com/moT01/.timestamp-microservice",
-      "branch": "v0.0.1"
+      "branch": "v0.0.2"
     },
     "reset": {
       "commands": [
@@ -58,7 +58,7 @@
           ],
           "setup": {
             "commits": [
-              "63e2e55fbeb571e7fda4260818bdfabf80e8260b"
+              "49c45765f263d240b2222281a8e5ceac2463cbe9"
             ]
           }
         }

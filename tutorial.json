@@ -11,7 +11,7 @@
         "./.freeCodeCamp/reset.sh"
       ],
       "commits": [
-        "ef0d2a334d72c68fc3591d07133066711587b6cc"
+        "8d9a53bf8ef1f06023953073a38f74a25a4b2882"
       ]
     },
     "testRunner": {
@@ -58,7 +58,7 @@
           ],
           "setup": {
             "commits": [
-              "4fe514ac1c78912d9e58728c766cba821cae2991"
+              "f69f62c1d5bb521deb9401d7ce8ece0b0bc31beb"
             ]
           }
         }

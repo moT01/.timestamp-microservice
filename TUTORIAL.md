@@ -4,7 +4,7 @@
 
 ## 1. Instructions
 
-Run your project by entering `npm start` in the terminal from the `timestamp-microserice` folder. After it's started, click the `localhost` button at the top left and open `localhost:8080` by clicking it in the drop down. 
+Run your project by entering `npm start` in the terminal from the `timestamp-microserice` folder. After it's started, click the `preview` button at the top and open port `8080` to view the front end of the project. Finish building the server to fulfill the user stories below.
 
 ### 1.1
 

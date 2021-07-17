@@ -3,6 +3,7 @@ config:
   setup:
     commands:
       - cd .freeCodeCamp && npm install
+      - ./.freeCodeCamp/reset.sh
   testRunner:
     command: npm run programmatic-test
     args:
@@ -11,6 +12,9 @@ config:
   repo:
     uri: https://github.com/moT01/.timestamp-microservice
     branch: v0.0.1
+  reset:
+    commands:
+      - './.freeCodeCamp/reset.sh'
   dependencies:
     - name: node
       version: '>=10'

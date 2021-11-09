@@ -10,7 +10,7 @@ config:
       tap: --reporter=mocha-tap-reporter
     directory: .freeCodeCamp
   repo:
-    uri: https://github.com/moT01/.timestamp-microservice
+    uri: https://github.com/moT01/learn-timestamp-microservice
     branch: v0.0.2
   reset:
     commands:
